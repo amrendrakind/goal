@@ -63,6 +63,7 @@ const CourseInput = (props) => {
         <label >Course Goal</label>
         <input
           type="text"
+          value={enteredValue}
           onChange={goalInputChangeHandler}
         />
       </div>
