@@ -12,6 +12,7 @@ const CourseGoalList = props => {
           id={goal.id}
           onDelete={props.onDeleteItem}
         >
+          {/* {goal.id}{" "} */}
           {goal.text}
         </CourseGoalItem>
       ))}
